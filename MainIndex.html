@@ -1,17 +1,33 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Course Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
 </head>
 <body>
-<h1>Hi! I am Allan Dela Cruz</h1>
-<div>
-    <h2><a href="js1index.html">JavaScript Activity 1</a></h2>
-    <h2><a href="js2index.html">JavaScript Activity 2</a></h2>
-    <h2><a href="Tours.html">HTML PH TOURS</a></h2>
-    <h2><a href="Schedule.html">HTML Schedule Activity</a></h2>
-</div>
+    <!-- Top Bar -->
+    <div class="topbar">
+        <div>Web Programming</div>
+        <div>Summative Assessment</div>
+        <div>Module 1 - Part 3</div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('projects')">Key Projects</button>
+        <button onclick="showSection('assignments')">Assignments</button>
+        <button onclick="showSection('reflection')">Reflection</button>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content" id="content">
+        <h2>Welcome to My Digital Course Portfolio</h2>
+        <p>Click on the buttons above to navigate through different sections.</p>
+    </div>
 </body>
 </html>

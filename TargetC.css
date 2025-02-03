@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    background-color: rgb(153, 119, 74);
+}
+
+.right {
+    flex: 1;
+    background-color: rgb(182, 132, 67);
+}
+
+.footer {
+    height: 13%;
+    background-color: grey;
+}

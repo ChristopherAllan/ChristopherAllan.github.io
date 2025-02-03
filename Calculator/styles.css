@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.calculator {
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 20px;
+}

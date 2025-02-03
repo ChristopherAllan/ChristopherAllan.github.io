@@ -3,7 +3,6 @@ function showSection(section) {
     
     if (section === 'home') {
         content.innerHTML = `<h1>About Me</h1>
-                             <img src='myphoto.jpg' alt='My Photo' style='width: 200px; border-radius: 50%;'>
                              <p>Hello! I'm Allan Christopher D. Dela Cruz, and this is my digital course portfolio. Here, you'll find my key projects, assignments, and reflections on what I have learned in web programming.</p>
                              <h2>About This Project</h2>
                              <p>This portfolio was created as part of my summative assessment in Web Programming. It showcases my journey in learning HTML, CSS, and JavaScript, demonstrating my progress and understanding of front-end development.</p>`;

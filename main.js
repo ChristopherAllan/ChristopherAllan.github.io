@@ -56,7 +56,7 @@ function showSection(section) {
         content.innerHTML = `<h1>Assignments</h1>
                             <div class='project'>
                                 <h3>Target A</h3>
-                                <img src='TargetA/TargetA.png' alt='Assignment 1' style='width: 300px;'>
+                                <img src='images/TargetA.png' alt='Assignment 1' style='width: 300px;'>
                                 <p><a href='TargetA/TargetA.html' target="_blank">Targer A</a></p>
                                 <p>Description of assignment 1.</p>
                             </div>`;

@@ -56,15 +56,9 @@ function showSection(section) {
         content.innerHTML = `<h1>Assignments</h1>
                             <div class='project'>
                                 <h3>Target A</h3>
-                                <img src='assignment1.jpg' alt='Assignment 1' style='width: 300px;'>
-                                <p><a href='#' target="_blank">View Assignment</a></p>
+                                <img src='TargetA/TargetA.png' alt='Assignment 1' style='width: 300px;'>
+                                <p><a href='TargetA/TargetA.html' target="_blank">Targer A</a></p>
                                 <p>Description of assignment 1.</p>
-                            </div>
-                            <div class='project'>
-                                <h3>Assignment 2 Title</h3>
-                                <img src='assignment2.jpg' alt='Assignment 2' style='width: 300px;'>
-                                <p><a href='#'>View Assignment</a></p>
-                                <p>Description of assignment 2.</p>
                             </div>`;
     }
     else if (section === 'reflection') {

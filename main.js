@@ -12,7 +12,7 @@ function showSection(section) {
                             <div class='project'>
                                 <h3>Ph Tours</h3>
                                 <img src='../images/PhTours.png' alt='Project 1' style='width: 300px;'>
-                                <p><a href='#'>View Project</a></p>
+                                <p><a href='../Ph Tours/PhTours.html'>View Project</a></p>
                                 <p>Description of project 1.</p>
                             </div>
                             <div class='project'>

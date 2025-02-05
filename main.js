@@ -32,6 +32,13 @@ function showSection(section) {
                                 <img src='images/act2.png' alt='Project 1' style='width: 300px;'>
                                 <p><a href='ACT2/index.html'>View Project</a></p>
                                 <p>Description of project 1.</p>
+                            </div>
+                            <h1>Side Project</h1>
+                            <div class='project'>
+                                <h3>SIMPLE CALCULATOR</h3>
+                                <img src='images/calc.png' alt='Project 1' style='width: 300px;'>
+                                <p><a href='Calc/Calc.html'>View Project</a></p>
+                                <p>Description of project 1.</p>
                             </div>`
                             ;
     }

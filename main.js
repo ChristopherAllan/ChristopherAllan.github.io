@@ -57,8 +57,16 @@ function showSection(section) {
                             <div class='project'>
                                 <h3>Target A</h3>
                                 <img src='images/TargetA.png' alt='Assignment 1' style='width: 300px;'>
+                                <img src='images/TargetB.png' alt='Assignment 1' style='width: 300px;'>
+                                <img src='images/TargetC.png' alt='Assignment 1' style='width: 300px;'>
+                                <img src='images/TargetD.png' alt='Assignment 1' style='width: 300px;'>
+                                <img src='images/TargetE.png' alt='Assignment 1' style='width: 300px;'>
                                 <p><a href='TargetA/TargetA.html' target="_blank">Targer A</a></p>
-                                <p>Description of assignment 1.</p>
+                                <p><a href='TargetB/TargetB.html' target="_blank">Targer B</a></p>
+                                <p><a href='TargetC/TargetC.html' target="_blank">Targer C</a></p>
+                                <p><a href='TargetD/TargetD.html' target="_blank">Targer D</a></p>
+                                <p><a href='TargetE/TargetE.html' target="_blank">Targer E</a></p>
+                                <p></p>
                             </div>`;
     }
     else if (section === 'reflection') {

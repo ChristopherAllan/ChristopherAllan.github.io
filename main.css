@@ -52,3 +52,8 @@ body {
     padding-right: 150px;
     text-align: center;
 }
+
+.Targets p {
+    display: inline;
+    margin-right: 10px; /* Adds spacing between links */
+}

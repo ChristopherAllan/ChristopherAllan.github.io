@@ -54,7 +54,7 @@ function showSection(section) {
     }
     else if (section === 'assignments') {
         content.innerHTML = `<h1>Assignments</h1>
-                            <div class='project'>
+                            <div class='Targets'>
                                 <h3>Target A</h3>
                                 <img src='images/TargetA.png' alt='Assignment 1' style='width: 300px;'>
                                 <img src='images/TargetB.png' alt='Assignment 1' style='width: 300px;'>

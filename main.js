@@ -11,27 +11,9 @@ function showSection(section) {
         content.innerHTML = `<h1>Key Projects</h1>
                             <div class='project'>
                                 <h3>Ph Tours</h3>
-                                <img src='../images/PhTours.png' alt='Project 1' style='width: 300px;'>
-                                <p><a href='PhTours.html'>View Project</a></p>
+                                <img src='images/PhTours.png' alt='Project 1' style='width: 300px;'>
+                                <p><a href='Ph Tours/PhTours.html'>View Project</a></p>
                                 <p>Description of project 1.</p>
-                            </div>
-                            <div class='project'>
-                                <h3>Schedule</h3>
-                                <img src='project2.jpg' alt='Project 2' style='width: 300px;'>
-                                <p><a href='#'>View Project</a></p>
-                                <p>Description of project 2.</p>
-                            </div>
-                            <div class='project'>
-                                <h3>Java Act 1</h3>
-                                <img src='project2.jpg' alt='Project 2' style='width: 300px;'>
-                                <p><a href='#'>View Project</a></p>
-                                <p>Description of project 2.</p>
-                            </div>
-                            <div class='project'>
-                                <h3>Java Act 2</h3>
-                                <img src='project2.jpg' alt='Project 2' style='width: 300px;'>
-                                <p><a href='#'>View Project</a></p>
-                                <p>Description of project 2.</p>
                             </div>`
                             ;
     }

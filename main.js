@@ -10,17 +10,30 @@ function showSection(section) {
     else if (section === 'projects') {
         content.innerHTML = `<h1>Key Projects</h1>
                             <div class='project'>
-                                <h3>Project 1 Title</h3>
-                                <img src='project1.jpg' alt='Project 1' style='width: 300px;'>
+                                <h3>Ph Tours</h3>
+                                <img src='../images/Phtours.png' alt='Project 1' style='width: 300px;'>
                                 <p><a href='#'>View Project</a></p>
                                 <p>Description of project 1.</p>
                             </div>
                             <div class='project'>
-                                <h3>Project 2 Title</h3>
+                                <h3>Schedule</h3>
                                 <img src='project2.jpg' alt='Project 2' style='width: 300px;'>
                                 <p><a href='#'>View Project</a></p>
                                 <p>Description of project 2.</p>
-                            </div>`;
+                            </div>
+                            <div class='project'>
+                                <h3>Java Act 1</h3>
+                                <img src='project2.jpg' alt='Project 2' style='width: 300px;'>
+                                <p><a href='#'>View Project</a></p>
+                                <p>Description of project 2.</p>
+                            </div>
+                            <div class='project'>
+                                <h3>Java Act 2</h3>
+                                <img src='project2.jpg' alt='Project 2' style='width: 300px;'>
+                                <p><a href='#'>View Project</a></p>
+                                <p>Description of project 2.</p>
+                            </div>`
+                            ;
     }
     else if (section === 'assignments') {
         content.innerHTML = `<h1>Assignments</h1>

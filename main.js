@@ -10,9 +10,27 @@ function showSection(section) {
     else if (section === 'projects') {
         content.innerHTML = `<h1>Key Projects</h1>
                             <div class='project'>
-                                <h3>Ph Tours</h3>
+                                <h3>PH TOURS</h3>
                                 <img src='images/PhTours.png' alt='Project 1' style='width: 300px;'>
                                 <p><a href='Ph Tours/PhTours.html'>View Project</a></p>
+                                <p>Description of project 1.</p>
+                            </div>
+                            <div class='project'>
+                                <h3>SCHEDULE</h3>
+                                <img src='images/Sched.png' alt='Project 1' style='width: 300px;'>
+                                <p><a href='Schedule/Schedule.html'>View Project</a></p>
+                                <p>Description of project 1.</p>
+                            </div>
+                            <div class='project'>
+                                <h3>JAVA ACT1</h3>
+                                <img src='images/act1.png' alt='Project 1' style='width: 300px;'>
+                                <p><a href='ACT1/index.html'>View Project</a></p>
+                                <p>Description of project 1.</p>
+                            </div>
+                            <div class='project'>
+                                <h3>JAVA ACT2</h3>
+                                <img src='images/act2.png' alt='Project 1' style='width: 300px;'>
+                                <p><a href='ACT2/index.html'>View Project</a></p>
                                 <p>Description of project 1.</p>
                             </div>`
                             ;

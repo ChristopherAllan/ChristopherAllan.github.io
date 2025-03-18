@@ -41,6 +41,17 @@ function showSection(section) {
                                 One key learning point here is how click events can be used to manipulate lists dynamically. The use of console.log() to track inputs and array updates is a smart debugging approach, allowing me to see exactly how tasks are added step by step. Additionally, the logic of todos.push(txtTodoItem.value) demonstrates how data is stored and updated in an array before being rendered on the screen.<br>
                                 If I were to enhance this project, I’d consider adding a delete button for each task, an input validation check to prevent empty tasks from being added, or even storing tasks in local storage so they persist after a page refresh. It would also be useful to include a clear all button to reset the list. Overall, this project was a great introduction to list management with JavaScript, and I enjoyed seeing how small improvements could make it even more interactive!</p>
                             </div>
+                            <h1>Final Project</h1>
+                            <div class='project'>
+                                <h3>2YM2Project</h3>
+                                <img src='images/M3Proj.png' alt='Project 1' style='width: 300px;'>
+                                <p><a href="https://github.com/rieCapricho/2YM2Project">View Project</a></p>
+                                <p>Our final project involves developing a financial management system specifically designed for a well-known marching band in Davao, the Davao Blue Eagles. The system we created focuses on Expense Integration and Revenue Management, along with a Monthly Summary Report to help the band efficiently track their financial transactions.<br><br>
+
+With this system, the Davao Blue Eagles Marching Band can automate the process of recording expenses and revenue for each event they participate in. This ensures that every financial movement is properly documented, reducing errors and improving transparency. Additionally, the system helps the band’s management team monitor cash flow, making it easier to keep track of funding sources, expenditures, and overall financial health.<br><br>
+
+By implementing this project, we aim to streamline financial tracking, minimize manual record-keeping, and enhance accountability for the individuals responsible for handling the band's finances. This automation will not only improve efficiency but also allow the band to focus more on their performances rather than financial management challenges.</p>
+                            </div>
                             <h1>Side Project</h1>
                             <div class='project'>
                                 <h3>SIMPLE CALCULATOR</h3>
